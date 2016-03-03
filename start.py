@@ -227,7 +227,7 @@ for badge in badgeSet:
 logging.warning("Idle Master needs to idle " + Fore.GREEN + str(len(badgesLeft)) + Fore.RESET + " games")
 
 def getKey(item):
-	if authData["sort"] = ="mostcards" or authData["sort"] == "leastcards":
+	if authData["sort"] == "mostcards" or authData["sort"] == "leastcards":
 		return item[1]
 	elif authData["sort"] == "mostvalue" or authData["sort"] == "leastvalue":
 		return item[2]
